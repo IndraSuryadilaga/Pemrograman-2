@@ -1,13 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int ZhongArmy = 958730;
-    char *PowerRanger[] = {"Zilong", "Ling", "Baxia", "Wanwan", "Change"};
-    int jumlahPahlawan = sizeof(PowerRanger) / sizeof(PowerRanger[0]);
+    int pasukanZhong = 958730, pahlawan = 5;
 
-    printf("Jumlah pasukan yang dibawa Yu Zhong adalah %d\n", ZhongArmy);
-    printf("Jumlah pahlawan adalah %d\n", jumlahPahlawan);
-    printf("Jumlah pasukan yang harus dikalahkan setiap pahlawan adalah %d pasukan\n", ZhongArmy / jumlahPahlawan);
-
+    printf("Jumlah Pasukan yang dibawa Yu Zhong = %d\n", pasukanZhong);
+    printf("Jumlah Pahlawan = %d\n", pahlawan);
+    printf("Jumlah Pasukan yang harus dikalahkan setiap pahlawan adalah %d pasukan\n", pasukanZhong / pahlawan);
     return 0;
 }
