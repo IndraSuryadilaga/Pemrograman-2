@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    float sepA = 100000;
-    float sepB = 200000;
-    float dis1 = 15;
-    float dis2 = 70;
+    int hargaA = 100000, hargaB = 200000;
+    float diskonA = 15, diskonB = 70;
     
-    printf("Harga sepatu A adalah %.0f\n",sepA);
-    printf("Harga sepatu B adalah %.0f\n",sepB);
-    printf("Harga sepatu A setelah diskon %.0f%% adalah %.0f \n", dis1, sepA-(sepA*dis1/100));
-    printf("Harga sepatu B setelah diskon %.0f%% adalah %.0f \n", dis2, sepB-(sepB*dis2/100));
+    printf("Harga sepatu A adalah %d\n",hargaA);
+    printf("Harga sepatu B adalah %d\n",hargaB);
+    printf("Harga sepatu A setelah diskon %.0f%% adalah %.0f \n", diskonA, hargaA-hargaA*diskonA/100);
+    printf("Harga sepatu B setelah diskon %.0f%% adalah %.0f \n", diskonB, hargaB-hargaB*diskonB/100);
     return 0;
 }
