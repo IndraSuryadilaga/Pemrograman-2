@@ -1,15 +1,9 @@
-sepA=100000
-sepB=200000
-dis1=15
-dis2=70
+hargaA = 100000
+hargaB = 200000
+diskonA = 15
+diskonB = 70
 
-charsep = ['A', 'B']    
-datasep = [sepA, sepB]
-datadis = [dis1, dis2]
-
-for char, data in zip(charsep, datasep):
-    print(f'Harga sepatu {char} adalah {data}')
-
-for char, data, dis in zip(charsep, datasep, datadis):
-    harga_diskon = int(data - (data * dis/100))
-    print(f'Harga sepatu {char} setelah diskon {dis}% adalah {harga_diskon}')
+print(f"Harga sepatu A adalah {hargaA}")
+print(f"Harga sepatu B adalah {hargaB}")
+print(f"Harga sepatu A setelah diskon {diskonA}% adalah {(hargaA-hargaA*diskonA/100):.0f}")
+print(f"Harga sepatu B setelah diskon {diskonB}% adalah {(hargaB-hargaB*diskonB/100):.0f}")
