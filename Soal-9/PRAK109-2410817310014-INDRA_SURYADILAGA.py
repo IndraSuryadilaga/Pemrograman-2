@@ -1,6 +1,6 @@
-ZhongArmy=958730
-PowerRanger=['Zilong','Ling','Baxia','Wanwan','Change']
+pasukanZhong = 958730
+pahlawan = 5
 
-print(f'Jumlah pasukan yang dibawa Yu Zhong adalah {ZhongArmy}')
-print(f'Jumlah pahalawan adalah {len(PowerRanger)}')
-print(f'Jumlah pasukan yang harus dikalahkan setiap pahlawan adalah {ZhongArmy/len(PowerRanger):.0f} pasukan')
+print(f'Jumlah pasukan yang dibawa Yu Zhong adalah {pasukanZhong}')
+print(f'Jumlah pahalawan adalah {pahlawan}')
+print(f'Jumlah pasukan yang harus dikalahkan setiap pahlawan adalah {pasukanZhong/pahlawan:.0f} pasukan')
